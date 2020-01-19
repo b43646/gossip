@@ -1,0 +1,9 @@
+current_host: 127.0.0.1
+current_port: 60003
+peers:
+- host: 127.0.0.1
+  name: 60001
+  port: 60001
+- host: 127.0.0.1
+  name: 60002
+  port: 60002
