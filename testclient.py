@@ -16,7 +16,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # port = 60002
 
 # 连接服务，指定主机和端口
-s.connect(("127.0.0.1", sys.argv[1]))
+s.connect(("127.0.0.1", int(sys.argv[1])))
 
 # 接收小于 1024 字节的数据
 
