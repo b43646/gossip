@@ -8,10 +8,13 @@
 
 节点1
 `[root@hadoop001 demo1]# python3.6 main.py`
+
 节点2
 `[root@hadoop001 demo2]# python3.6 main.py`
+
 节点3
 `[root@hadoop001 demo3]# python3.6 main.py`
+
 
 执行客户端发送数据
 `[root@hadoop001 ~]# python3.6 testclient.py 60002 1`
